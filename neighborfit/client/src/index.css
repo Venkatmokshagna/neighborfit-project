@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional custom overrides using Tailwind's @apply syntax */
+
+body {
+  @apply bg-white text-gray-900 min-h-screen p-4 flex flex-col items-center;
+}
+
+h1 {
+  @apply text-4xl font-bold text-blue-600 mb-6;
+}
+
+button {
+  @apply bg-blue-500 text-white font-medium py-2 px-4 rounded hover:bg-blue-600 transition;
+}

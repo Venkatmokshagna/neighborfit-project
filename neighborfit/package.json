@@ -1,0 +1,9 @@
+
+{
+  "name": "neighborfit",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
